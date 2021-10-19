@@ -12,6 +12,6 @@ namespace AppSite.Services
         Task<IEnumerable<Users>> GetUsersService();
         Task<Users> GetUserByIdService(int Id);
         Task<Users> EditUserService(Users user);
-        Task<Users> DeleteUserService(int Id);
+        Task DeleteUserService(int Id);
     }
 }

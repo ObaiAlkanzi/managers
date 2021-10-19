@@ -119,3 +119,4 @@ M:\obai\AspNet Core\Managers\AppSite\bin\Debug\net5.0\runtimes\win-arm\lib\net5.
 M:\obai\AspNet Core\Managers\AppSite\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 M:\obai\AspNet Core\Managers\AppSite\obj\Debug\net5.0\Razor\Views\Home\Info.cshtml.g.cs
 M:\obai\AspNet Core\Managers\AppSite\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs
+M:\obai\AspNet Core\Managers\AppSite\obj\Debug\net5.0\Razor\Views\Home\Delete.cshtml.g.cs

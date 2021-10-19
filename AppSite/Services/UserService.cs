@@ -21,10 +21,10 @@ namespace AppSite.Services
             throw new NotImplementedException();
         }
 
-        public  Task<Users> DeleteUserService(int Id)
+        public  async Task DeleteUserService(int Id)
         {
-            throw new NotImplementedException();
-            //return await httpClient.DeleteAsync<Users>($"api/Users/{Id}");
+            //throw new NotImplementedException();
+             await httpClient.DeleteAsync($"api/Users/{Id}");
         }
 
         public async Task<Users> EditUserService(Users user)

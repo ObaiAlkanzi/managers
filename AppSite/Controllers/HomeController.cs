@@ -47,7 +47,13 @@ namespace AppSite.Controllers
         public async Task<IActionResult> Edit(Users user)
         {
             Users result = await userApi.EditUserService(user);
-            return RedirectToAction("Info",new { Id = result.Id });
+            return RedirectToAction("Info", new { Id = result.Id });
+        }
+
+        public async Task<IActionResult>  Delete(int Id)
+        {
+           await userApi.DeleteUserService(Id);
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

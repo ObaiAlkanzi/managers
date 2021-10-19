@@ -26,10 +26,25 @@
                     <td>
                         <a class="btn btn-outline-success" href="/Home/Info/@user.Id"><span>full info</span></a>
                         <a class="btn btn-outline-primary" href="/Home/Edit/@user.Id"><span>edit</span></a>
-                        <button class="btn btn-outline-danger" onclick=""><span>delete</span></button>
+                        <button class="btn btn-outline-danger" onclick="api.Delete(@user.Id)"><span>delete</span></button>
                     </td>
                 </tr>
             }
         </table>
     </div>
 </div>
+@section scripts{
+    <script>
+        $(document).ready(() => {
+            //alert("ok");
+        });
+        api = new Api();
+        function Api() {
+            this.Delete = function (Id) {
+                if (window.confirm("Delete this user?")) {
+                    location.replace("/Home/Delete/"+Id);
+                }
+            }
+        }
+    </script>
+ }
