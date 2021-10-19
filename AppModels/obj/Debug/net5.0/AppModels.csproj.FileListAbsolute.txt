@@ -1,0 +1,12 @@
+M:\obai\AspNet Core\Managers\AppModels\bin\Debug\net5.0\AppModels.deps.json
+M:\obai\AspNet Core\Managers\AppModels\bin\Debug\net5.0\AppModels.dll
+M:\obai\AspNet Core\Managers\AppModels\bin\Debug\net5.0\ref\AppModels.dll
+M:\obai\AspNet Core\Managers\AppModels\bin\Debug\net5.0\AppModels.pdb
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.csproj.AssemblyReference.cache
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.GeneratedMSBuildEditorConfig.editorconfig
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.AssemblyInfoInputs.cache
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.AssemblyInfo.cs
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.csproj.CoreCompileInputs.cache
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.dll
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\ref\AppModels.dll
+M:\obai\AspNet Core\Managers\AppModels\obj\Debug\net5.0\AppModels.pdb
