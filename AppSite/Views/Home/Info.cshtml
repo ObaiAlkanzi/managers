@@ -1,0 +1,32 @@
+﻿@model AppModels.Users
+
+@{
+    ViewData["Title"] = "Info";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h5>user full information</h5>
+    </div>
+    <dl class="card-body">
+        <dt class="">
+            @Html.DisplayNameFor(model => model.Id) :  @Html.DisplayFor(model => model.Id)
+        </dt>
+        <dt class="">
+            @Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(model => model.Name)
+        </dt>
+        <dt class="">
+            @Html.DisplayNameFor(model => model.Password) : @Html.DisplayFor(model => model.Password)
+        </dt>
+        <dt class="">
+            @Html.DisplayNameFor(model => model.Email) : @Html.DisplayFor(model => model.Email)
+        </dt>
+        <dt class="">
+            @Html.DisplayNameFor(model => model.DepartId) : @Html.DisplayFor(model => model.DepartId)
+        </dt>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.Id  }) |
+    <a asp-action="Index">Back to List</a>
+</div>

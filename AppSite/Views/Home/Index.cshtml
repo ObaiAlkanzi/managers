@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Users>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-responsive-lg table-bordered">
+            <tr>
+                <td>name</td>
+                <td>Password</td>
+                <td>Email</td>
+                <td>Depart Id</td>
+                <td></td>
+            </tr>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.Password</td>
+                    <td>@user.Email</td>
+                    <td>@user.DepartId</td>
+                    <td>
+                        <a class="btn btn-outline-success" href="/Home/Info/@user.Id"><span>full info</span></a>
+                        <a class="btn btn-outline-primary" href="/Home/Edit/@user.Id"><span>edit</span></a>
+                        <button class="btn btn-outline-danger" onclick=""><span>delete</span></button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
